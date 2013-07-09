@@ -1,5 +1,5 @@
-def linearSearch( theValue, target ):
-    n = len( theValue )
+def linearSearch( theValues, target ):
+    n = len( theValues )
     for i in range( n ):
         if theValues[i] == target
             return True
