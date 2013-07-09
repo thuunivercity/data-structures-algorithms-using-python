@@ -1,8 +1,8 @@
 def findSmallest( theValue ):
-    n = len( theValue )
-    smallest = theValue[0]
+    n = len( theValues )
+    smallest = theValues[0]
     for i in range( 1, n ):
         if theList[i] < smallest :
-            smallest = theValue[i]
+            smallest = theValues[i]
     return smallest
 
