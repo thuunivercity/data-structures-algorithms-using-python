@@ -1,9 +1,9 @@
-def sorteLinearSearch( theValue, item):
-    n = len( theValue )
+def sorteLinearSearch( theValues, item):
+    n = len( theValues )
     for i in range( n ):
-        if theValue[i] == item :
+        if theValues[i] == item :
             return True
-        elif theValue[i] > item :
+        elif theValues[i] > item :
             return False
     return False
 
