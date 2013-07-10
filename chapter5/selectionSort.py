@@ -12,10 +12,12 @@ def selectionSort(theSeq):
          # value is not already in its proper position. Some implementation
          # omit testing the condition and always swap the two values.
         theSeq[i], theSeq[smallNdx] = theSeq[smallNdx], theSeq[i]
+        print('iteration #{}: {}'.format(i, theSeq))
 
     return theSeq
 
 # test the sorting method using instance
 testlist = [27, 33, 28, 4, 2, 26, 13, 35, 8, 14]
-print testlist
-print selectionSort(testlist)
+
+print ('Before selection sort:{}'.format(testlist))
+print ('After selection sort:{}'.format(selectionSort(testlist)))
