@@ -2,7 +2,7 @@ class SparseMatrix:
 
     def __add__(self, rhsMatrix):
         assert rhsMatrix.numRows() = self.numRows() and \
-            rhsMatrix.numCols() = self.numCols(),\
+            rhsMatrix.numCols() = self.numCols(), \
             "Matrix sizes not compatible for th eadd operation."
 
     # Create the new matrix
