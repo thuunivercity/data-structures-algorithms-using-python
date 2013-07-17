@@ -1,5 +1,5 @@
 class SparseMatrix:
-    # Create a sparse matrix of size numRows x numCols initialised to 0.
+    # Create a sparse matrix of size numRows x numCols initialised to 0
     def __init__(self, numRows, numCols):
         self._numRows = numRows
         self._numCols = numCols
